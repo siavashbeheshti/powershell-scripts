@@ -13,7 +13,7 @@ HostName     : Beheshti.Contoso.Local
 ClientID     : 60-eb-f2-72-f6-d4
 AddressState : Active
 
-Repeat the script?
+Do you want to search for another MAC Address?
 [Y] Y  [N] N  [?] Help (default is "Y"):
 ```
-After showing the lease information for entered MAC Address, script asks if you want to repeat the script; By entering **Y** you can repeat the script and search for another MAC Address in Dhcp Server(s).
+After showing the lease information for entered MAC Address, script asks if you want to search for another MAC; By entering **Y** you can repeat the script and search for another MAC Address in Dhcp Server(s).
