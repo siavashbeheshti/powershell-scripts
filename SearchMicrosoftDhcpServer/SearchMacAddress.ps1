@@ -22,7 +22,7 @@ ForEach ($DHCPServer in $DHCPServers)
         write-host "Exception reason: $($_.Exception.NativeErrorCode)" -ForegroundColor Red
     }
   }
-  $choice = $Host.UI.PromptForChoice("Repeat the script?","",$choices,0)
+  $choice = $Host.UI.PromptForChoice("Do you want to search for another MAC Address?","",$choices,0)
   if ( $choice -ne 0 ) {
     break
   }
