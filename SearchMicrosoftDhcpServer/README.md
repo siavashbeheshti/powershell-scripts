@@ -1,4 +1,4 @@
-# Search Mac Addres in Microsoft Dhcp Server
+# Search Mac Address in Microsoft Dhcp Server
 This simple Powershell script search the entered MAC address from the authorized computers that run the DHCP server service from Active Directory and shows other lease information such as **Scope ID**, **IP Address**, **Hostname** and **Address State**  for entered MAC Address.
 
 
