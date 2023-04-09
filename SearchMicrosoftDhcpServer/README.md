@@ -2,10 +2,10 @@
 This simple Powershell script search the entered MAC address from the authorized computers that run the DHCP server service from Active Directory and shows other lease information such as **Scope ID**, **IP Address**, **Hostname** and **Address State**  for entered MAC Address.
 
 
-**Note**: No need to enter the full MAC Address. You can enter just three or two octets:
+**Note**: No need to enter the full MAC Address. You can enter just three or two octets with wildcard (*) character:
 
 ```powershell
-Input the MAC address you want to search for: *f6-d4
+Input the MAC address you want to search for : *f6-d4
 
 ScopeId      : 192.168.1.0
 IPAddress    : 192.168.1.117
