@@ -4,7 +4,7 @@ This simple Powershell script search the entered MAC address from the authorized
 
 **Note**: No need to enter the full MAC Address. You can enter just three or two octets with wildcard (*) character:
 
-```powershell
+```
 Input the MAC address you want to search for : *f6-d4
 
 ScopeId      : 192.168.1.0
